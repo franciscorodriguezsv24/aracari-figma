@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .titleContainer{
@@ -21,4 +21,14 @@
     color: white;
 }
 
-
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    width: 14rem;
+}

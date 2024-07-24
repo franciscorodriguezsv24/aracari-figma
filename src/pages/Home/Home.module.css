@@ -1,9 +1,38 @@
 .homeContainer{
-    background-color: black;
-    height: 100vh;
+    background-color: #aab5ca;
+    height: 100%;
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8rem;
 
+}
+
+.titleContainer{
+    color: white;
+    width: 90%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.title{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.subtitle{
+    font-weight: 300;
+    font-size: 1.3rem;
 }

@@ -5,11 +5,11 @@ const handleButton = () =>{
     console.log("button work properly")
 }
 
-const Button = () => {
+const Button = (props) => {
     return (
         <div className={StyleCss.backgroundLinear}>
             <button className={StyleCss.buttonContainer} onClick={handleButton}>
-                <p className={StyleCss.buttonText}>¡Hablemos!</p>
+                <p className={StyleCss.buttonText}>{props.title}</p>
             </button>
         </div>
     )

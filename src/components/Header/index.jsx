@@ -9,7 +9,10 @@ const Header = () => {
                 <p>Un proceso simple y humano para</p>
                 <p>brindarte apoyo legal.</p>
             </div>
-            <Button/>
+            <div className={StyleCss.buttonContainer}>
+                <Button title="¡Hablemos!"/>
+                <p>30 minutos gratis</p>
+            </div>
         </div>
 
         

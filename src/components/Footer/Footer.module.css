@@ -1,0 +1,33 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-bottom: 20rem;
+
+}
+
+.footerElementContainer{
+    display: flex;
+    flex-direction:row;
+}
+
+.footerSectionText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #9DA4AF;
+}
+
+.footerItemsText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: start;
+    font-size: 1rem;
+    background: linear-gradient(
+        to right, #7134B1, #CEB4E9
+    );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-top:0.5rem;
+}
+
