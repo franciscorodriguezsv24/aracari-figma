@@ -2,6 +2,9 @@
 
 This is a React project developed with Vite, Below are the steps to set up and run the project on different operating systems.
 
+##Deploy Link
+- [Application](https://main--strong-buttercream-359ab4.netlify.app/)
+
 ## Requirements
 
 Before you begin, make sure you have the following programs installed:
