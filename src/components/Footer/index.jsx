@@ -14,7 +14,7 @@ const Footer = () => {
                     Más sobre nosotros
                     </p>
                     <ul className={StyleCss.footerItemsText}>
-                        <a href='/'>¿Quiénes somos?</a>
+                        <a href='/about'>¿Quiénes somos?</a>
                         <a href='/'>Roadmap del proyecto</a>
                         <a href='/'>Relaciones con inversionistas</a>
                         <a href='/'>Conoce a nuestro equipo </a>
