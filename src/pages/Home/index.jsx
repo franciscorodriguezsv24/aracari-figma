@@ -9,7 +9,7 @@ const Home = () => {
   const [services, setServices] = useState(null);
 
   useEffect(() => {
-    fetch('../../../db.json')
+    fetch('../../../public/db.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
