@@ -1,11 +1,12 @@
 import React from 'react'
 import StyleCss from './Footer.module.css'
-
 import Facebook from '../Icons/Facebook';
 import Instagram from '../Icons/Instagram';
 import Xtwitter from '../Icons/Xtwitter';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+    const navigate = useNavigate();
     return (
         <div className={StyleCss.container}>
             <footer className={StyleCss.footerContainer}>
@@ -14,7 +15,7 @@ const Footer = () => {
                     Más sobre nosotros
                     </p>
                     <ul className={StyleCss.footerItemsText}>
-                        <a href='/about'>¿Quiénes somos?</a>
+                        <a onClick={() => navigate('/about')}>¿Quiénes somos?</a>
                         <a href='/'>Roadmap del proyecto</a>
                         <a href='/'>Relaciones con inversionistas</a>
                         <a href='/'>Conoce a nuestro equipo </a>
