@@ -2,8 +2,15 @@
 
 This is a React project developed with Vite, Below are the steps to set up and run the project on different operating systems.
 
-##Deploy Link
+## Deploy Link
 - [Application](https://main--strong-buttercream-359ab4.netlify.app/)
+
+## db.json 
+  If you encounter an error when starting the app locally, within the pages folder, you will find the home component. When making the fetch request locally, you should use
+```bash
+  '../../../public/db.json'
+```
+to resolve the issue.
 
 ## Requirements
 
