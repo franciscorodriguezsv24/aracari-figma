@@ -10,8 +10,15 @@ const Home = () => {
 
   useEffect(() => {
     fetch('../../../db.json')
-      .then(response => response.json())
-      .then(data => setServices(data.service))
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setServices(data.service);
+      })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
