@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-        <BrowserRouter basename="/aracari-figma">
+        <BrowserRouter>
           <AppRoutes/>
         </BrowserRouter>
     </>

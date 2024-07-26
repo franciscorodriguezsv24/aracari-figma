@@ -7,6 +7,8 @@ import Img1 from '../../../public/Images/img-1.jpeg'
 import Img2 from '../../../public/Images/img-2.jpeg'
 import Img3 from '../../../public/Images/img-3.jpeg'
 import Img4 from '../../../public/Images/img-4.jpeg'
+import MenuBar from '../../components/MenuBar'
+
 
 
 const About = () => {
@@ -22,7 +24,11 @@ const About = () => {
                 <div className={StyleCss.circleGradient4}>
                 </div>
             </div>
+            <div className={StyleCss.headerComtainer}>
+            <MenuBar/>
             <HeaderSection/>
+            </div>
+
             <div className={StyleCss.aboutSubtitleContainer}>
                 <h5>Explora como Igualítika puede ayudarte</h5>
                 <hr/>

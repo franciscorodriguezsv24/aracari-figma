@@ -1,0 +1,19 @@
+.NavbarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.burguerIcon{
+    display: none;
+    color: white;
+}
+
+@media (min-width: 300px) and 
+        (max-width: 900px) {
+            .burguerIcon{
+                display: block;
+            }
+        }

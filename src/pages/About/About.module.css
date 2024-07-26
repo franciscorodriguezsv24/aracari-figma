@@ -80,6 +80,13 @@
     padding: 10px;
 }
 
+.headerComtainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (min-width: 300px) and 
         (max-width: 900px) {
             .aboutCardContainer{
