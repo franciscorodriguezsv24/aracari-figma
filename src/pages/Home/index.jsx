@@ -17,8 +17,6 @@ const Home = () => {
 
   if (!services) return <div className={StyleCss.loadingContainer}>Loading...</div>;
 
-  console.log(services)
-
       return (
         <div className={StyleCss.homeContainer}>
           <div className={StyleCss.backgroundGradient}>
