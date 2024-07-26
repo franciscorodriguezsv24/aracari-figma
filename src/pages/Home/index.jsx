@@ -15,7 +15,7 @@ const Home = () => {
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
-  if (!services) return <div>Loading...</div>;
+  if (!services) return <div className={StyleCss.loadingContainer}>Loading...</div>;
 
   console.log(services)
 

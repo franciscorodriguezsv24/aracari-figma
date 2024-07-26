@@ -1,0 +1,85 @@
+.NotFoundContainer {
+    padding-top: 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.backgroundGradient {
+    width: 100%;
+    height: 100%;
+    background-color: #140921;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.circleGradient1,
+.circleGradient2,
+.circleGradient3,
+.circleGradient4 {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circleGradient1 {
+    width: 80rem;
+    height: 80rem;
+    background-image: radial-gradient(circle, #321f4e, #140921 50%);
+    top: 0;
+    left: 0;
+}
+
+.circleGradient2 {
+    width: 80rem;
+    height: 80rem;
+    background-image: radial-gradient(circle, #321f4e, #1f1034, #140921 50%);
+    right: 0;
+    top: 20%;
+}
+
+.circleGradient3 {
+    width: 20rem;
+    height: 20rem;
+    background-image: radial-gradient(circle, #321f4e, #140921 50%);
+    left: 40%;
+    bottom: 0%;
+}
+.circleGradient4 {
+    display: none;
+    width: 80rem;
+    height: 80rem;
+    background-image: radial-gradient(circle, #321f4e, #140921 50%);
+    left: 20%;
+    bottom: 5%;
+}
+
+.textContainer{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFoundText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(
+        to right, #7134B1, #CEB4E9
+    );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-top:0.5rem;
+}
