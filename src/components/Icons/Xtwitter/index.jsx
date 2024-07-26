@@ -5,8 +5,8 @@ const Xtwitter = () => {
     return (
         <>
             <svg 
-                width="3rem" 
-                height="3rem" 
+                width="2.8rem" 
+                height="2.8rem" 
                 viewBox="0 0 1200 1227" 
                 fill="none" 
                 xmlns="http://www.w3.org/2000/svg">

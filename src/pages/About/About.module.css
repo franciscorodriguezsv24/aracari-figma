@@ -1,4 +1,4 @@
-.homeContainer {
+.aboutContainer {
     padding-top: 4rem;
     height: 100%;
     display: flex;
@@ -52,52 +52,3 @@
     left: 0;
     bottom: 22%;
 }
-
-
-
-.titleContainer{
-    color: white;
-    width: 90%;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
-.cardContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-
-}
-
-.title{
-    font-weight: 500;
-    font-size: 3rem;
-}
-
-.subtitle{
-    font-weight: 300;
-    font-size: 1.3rem;
-}
-
-@media (min-width: 300px) and 
-        (max-width: 900px) {
-            .title{
-                font-size: 2.2rem;
-            }
-            .subtitle{
-                font-weight: 200;
-                font-size: 1rem;
-            }
-            .cardContainer{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 5rem;
-            
-            }
-        }

@@ -1,0 +1,23 @@
+{
+    "service":[
+        {   "id": 1, 
+            "title":"Consulta Gratis",
+            "services": [
+                {"id": 1, "serviceTitle":"30 minutos gratis", "serviceSubtitle":"Tu primer consulta no tiene costo."},
+                {"id": 2, "serviceTitle":"Queremos ayudarte", "serviceSubtitle":"Cuéntanos tus necesidades."},
+                {"id": 3, "serviceTitle":"Atención inclusiva", "serviceSubtitle":"Todxs son bienvenidxs."}
+            ],
+            "buttonTitle":"¡Hablemos gratis!"
+        },
+        {
+            "id": 2, 
+            "title":"Lorem +",
+            "services": [
+                {"id": 1, "serviceTitle":"¿No encuentras lo que necesitas?", "serviceSubtitle":"Bríndanos más detalles."},
+                {"id": 2, "serviceTitle":"Planificación y estrategia", "serviceSubtitle":"Diseñamos un plan  a tu medida."},
+                {"id": 3, "serviceTitle":"$45 USD", "serviceSubtitle":"Tarifa transparente. Sin sorpresas."}
+            ],
+            "buttonTitle":"¡Inicia tu trámite!" 
+        }
+    ]
+}

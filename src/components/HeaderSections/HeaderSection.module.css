@@ -21,18 +21,6 @@
     color: white;
 }
 
-.buttonContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    color: white;
-    font-size: 14px;
-    width: 14rem;
-}
-
 @media (min-width: 300px) and 
         (max-width: 900px) {
             .headerContainer{
@@ -45,9 +33,5 @@
                 text-align: start;
                 padding-left: 0rem;
                 padding-left: 1rem;
-            }
-
-            .buttonContainer{
-                width: 95%;
             }
         }
