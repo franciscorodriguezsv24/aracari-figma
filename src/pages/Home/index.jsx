@@ -9,7 +9,7 @@ const Home = () => {
   const [services, setServices] = useState(null);
 
   useEffect(() => {
-    fetch('../../../public/db.json')
+    fetch('aracari-figma/public/db.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
