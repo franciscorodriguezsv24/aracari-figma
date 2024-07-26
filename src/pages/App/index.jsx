@@ -6,8 +6,8 @@ import './App.css'
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    {path:'aracari-figma/home', element: <Home/>},
-    {path:'aracari-figma/about', element: <About/>},
+    {path:'/', element: <Home/>},
+    {path:'/about', element: <About/>},
     {path:'/*', element: <NotFound/>}
   ])
 
