@@ -1,4 +1,4 @@
-import { BrowserRouter, useRoutes } from 'react-router-dom'
+import { BrowserRouter, Router, useRoutes } from 'react-router-dom'
 import About from '../About'
 import Home from '../Home'
 import NotFound from '../NotFound'
@@ -19,9 +19,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <AppRoutes/>
-      </BrowserRouter>
+      <Router basename='/aracari-figma'>
+        <BrowserRouter>
+          <AppRoutes/>
+        </BrowserRouter>
+      </Router>
     </>
   )
 }
