@@ -1,9 +1,16 @@
+.container{
+    padding-bottom: 20rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .footerContainer{
     display: flex;
     flex-direction: row;
     gap: 4rem;
-    padding-bottom: 20rem;
-
+    justify-content: space-around;
 }
 
 .footerElementContainer{
@@ -17,7 +24,20 @@
     color: #9DA4AF;
 }
 
+.footerIconSectionText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #9DA4AF;
+}
+
 .footerItemsText{
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+}
+
+.footerItemsText a{
+    width: 14rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     text-align: start;
@@ -29,5 +49,67 @@
     background-clip: text;
     -webkit-background-clip: text;
     padding-top:0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-decoration: none;
+    font-style: none;
 }
 
+.footerElementContainerIcom{
+    display: flex;
+    flex-direction:row;
+}
+
+
+.footerIconContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footerIconContainer a{
+    height: fit-content;
+}
+
+.linearGradient{
+    width: 95%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #3D424B, #241840); 
+    margin: 20px 0;
+}
+@media (min-width: 300px) and 
+        (max-width: 900px) {
+            .footerContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+            }
+            .footerElementContainer{
+                gap: 1rem;
+            }
+            .footerSectionText{
+                width: 50%;
+                text-align: end;
+            }
+            .footerItemsText{
+                padding-left: 0px;
+            }
+            .footerItemsText a{
+                padding: 0px;
+            }
+
+            .footerElementContainerIcom{
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 1rem;
+            }
+            .footerIconSectionText{
+                font-weight: 600;
+                color: #FCEFF1;
+                font-size: 1.30rem;
+            }
+        }

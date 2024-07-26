@@ -59,6 +59,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
+    text-align: start;
 }
 
 .detailsSubtitle{
@@ -68,3 +69,12 @@
 }
 
 
+@media (min-width: 300px) and 
+        (max-width: 900px) {
+            .HomeCardContainer{
+                width: 85%;
+            }
+            .titleCardContainer{
+                text-align: start;
+            }
+        }

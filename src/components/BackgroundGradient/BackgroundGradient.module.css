@@ -1,0 +1,19 @@
+
+.backgroundGradient {
+    width: 100%;
+    height: 100%;
+    background-color: #140921;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.circleGradient1,
+.circleGradient2,
+.circleGradient3,
+.circleGradient4 {
+    position: absolute;
+    border-radius: 50%;
+}
