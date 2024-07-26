@@ -2,6 +2,12 @@ import React from 'react'
 import Footer from '../../components/Footer'
 import HeaderSection from '../../components/HeaderSections'
 import StyleCss from './About.module.css'
+import DetailCard from '../../components/DetailCard'
+import Img1 from '../../../public/Images/img-1.jpeg'
+import Img2 from '../../../public/Images/img-2.jpeg'
+import Img3 from '../../../public/Images/img-3.jpeg'
+import Img4 from '../../../public/Images/img-4.jpeg'
+
 
 const About = () => {
     return (
@@ -17,30 +23,17 @@ const About = () => {
                 </div>
             </div>
             <HeaderSection/>
-            <section>
-            <div>
-                holamins
+            <div className={StyleCss.aboutSubtitleContainer}>
+                <h5>Explora como Igualítika puede ayudarte</h5>
+                <hr/>
             </div>
+            <section className={StyleCss.aboutCardContainer}>   
+                <DetailCard img={Img1}/>
+                <DetailCard img={Img2}/>
+                <DetailCard img={Img3}/>
+                <DetailCard img={Img4}/>
             </section>
             <Footer/>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-
         </div>
     )
 }

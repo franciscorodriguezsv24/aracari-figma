@@ -21,6 +21,10 @@
     color: white;
 }
 
+.titleContainer h4{
+    font-weight:500 ;
+}
+
 @media (min-width: 300px) and 
         (max-width: 900px) {
             .headerContainer{
@@ -33,5 +37,10 @@
                 text-align: start;
                 padding-left: 0rem;
                 padding-left: 1rem;
+                font-weight: 200;
+            }
+            .titleContainer h4{
+                font-weight:400 ;
+                font-size: 1.5rem;
             }
         }
