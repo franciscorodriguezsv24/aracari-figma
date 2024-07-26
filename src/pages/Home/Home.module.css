@@ -35,32 +35,32 @@
 }
 
 .circleGradient1 {
-    width: 80rem;
-    height: 80rem;
+    width: 50rem;
+    height: 50rem;
     background-image: radial-gradient(circle, #1f1034, #140921 50%);
     top: 0;
     left: 0;
 }
 
 .circleGradient2 {
-    width: 80rem;
-    height: 80rem;
+    width: 50rem;
+    height: 50rem;
     background-image: radial-gradient(circle, #2d174a, #1f1034, #140921 50%);
     right: 0;
     top: 20%;
 }
 
 .circleGradient3 {
-    width: 80rem;
-    height: 80rem;
+    width: 50rem;
+    height: 50rem;
     background-image: radial-gradient(circle, #1f1034, #140921 50%);
     left: 0;
     bottom: 22%;
 }
 .circleGradient4 {
     display: none;
-    width: 80rem;
-    height: 80rem;
+    width: 50rem;
+    height: 50rem;
     background-image: radial-gradient(circle, #321f4e, #140921 50%);
     left: 20%;
     bottom: 5%;
